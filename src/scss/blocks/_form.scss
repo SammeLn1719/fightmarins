@@ -1,0 +1,27 @@
+.form{
+    &__row{
+		display: block;
+		
+	}
+    &__name{
+        text-align: center;
+    }
+}
+form {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 20px;
+   
+   
+}
+input, textarea, button {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+.privacy-policy{
+    text-align: center;
+    padding-bottom: 24px;
+}

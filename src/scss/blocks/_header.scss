@@ -1,0 +1,27 @@
+.header {
+	background-color: #393C41;
+	padding: 50px 0;
+
+	&__row {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		@media screen and (max-width: 700px) {
+			flex-wrap: wrap;
+			& div{
+				width: 50%;
+			}
+		}
+		@media screen and (max-width: 500px) {
+			display: block;
+			& div{
+				width: 100%;
+				margin: 24px 0;
+				text-align: center;
+			}
+		}
+	}
+}
+.nav-a:hover{
+	border-bottom: #e3e3e3 solid 3px;
+}

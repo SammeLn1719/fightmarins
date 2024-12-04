@@ -1,0 +1,98 @@
+.banner{
+    background: linear-gradient(180deg, #393C41 13.07%, #929AA7 100%);
+    &__row{
+        display: flex;
+        @media screen and (max-width: 648px) {
+            display: contents;
+        }
+        & > div{
+            width: 50%;
+            @media screen and (max-width: 648px) {
+                width: 100%;
+            }
+        }
+
+    }
+    &__text{
+        font-size: 32px;
+    }
+}
+.img-logo{
+    padding: 72px;
+    @media screen and (max-width: 700px) {
+        padding: 40px;
+    }
+}
+.nav-a{
+    padding: 10px;
+}
+.banner-container {
+    position: relative;
+    height: 540px;
+    margin: auto;
+    @media screen and (max-width: 756px) {
+        height: 448px;
+    }
+    
+  }
+  
+  .imageh {
+    position: absolute;
+    height: auto;
+    // border: 5px solid white;
+    // box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .image5 {
+    top: 0px;
+    left: 255px;
+    z-index: 2; /* На переднем плане */
+    width: 340px;
+    height: auto;
+    @media screen and (max-width: 1205px) {
+        left: 200px;
+        width: 300px;
+    }
+    @media screen and (max-width: 992px) {
+        left: 120px;
+        width: 300px;
+    }
+    @media screen and (max-width: 860px) {
+        left: 120px;
+        width: 250px;
+    }
+    @media screen and (max-width: 756px) {
+        left: 120px;
+        width: 200px;
+    }
+    @media screen and (max-width: 355px) {
+        left: 80px;
+        width: 150px;
+    }
+  }
+  
+  .image6 {
+    top: 100px;
+    left: 100px;
+    width: 320px;
+    height: auto;
+    @media screen and (max-width: 1205px) {
+        left: 120px;
+        width: 300px;
+    }
+    @media screen and (max-width: 992px) {
+        left: 0px;
+        width: 280px;
+    }
+    @media screen and (max-width: 860px) {
+        width: 250px;
+    }
+    @media screen and (max-width: 756px) {
+        width: 200px;
+    }
+    @media screen and (max-width: 355px) {
+       
+        width: 150px;
+    }
+  }
+  
